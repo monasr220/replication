@@ -1,0 +1,20 @@
+[project]
+name = "replica"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.162.0",
+    "jwt>=1.4.0",
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.2",
+    "requests>=2.34.2",
+    "sqlalchemy>=2.1.8",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
